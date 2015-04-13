@@ -1,0 +1,111 @@
+* {box-sizing:border-box;}
+body {
+  background-color: #CCC;
+  overflow: hidden;
+}
+
+
+
+html, body, #map-canvas { height: 100%; margin: 0; padding: 0;}
+#panel {
+        position: fixed;
+        top: 5px;
+        left: 289px;
+        margin-left: -180px;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+}
+
+.glyphicon {
+  font-size: 45px;
+  background: #4cae4c;
+  color: white;
+  padding: 10px 5px 5px 5px;
+  left: 343px;
+}
+
+.list {
+  background: white;
+  position: fixed;
+  left: 109px;
+  top: 43px;
+  width: 30%;
+  border: 1px solid gray;
+}
+
+.list ul {
+  -webkit-padding-start: 0;
+  -webkit-margin-after: 0;
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.list li {
+  list-style: none;
+  cursor: pointer;
+  padding: 2em 0;
+  border-bottom: 1px solid #DDD;
+}
+
+.list li h4 {
+  margin-left: 20px;
+}
+
+.list li p {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.list li:hover {
+  background: yellow;
+}
+.list .selectedPlace {
+  background-color: white;
+}
+.list .selectedPlace:hover {
+  background-color: gray;
+}
+
+.photoframe {
+  background: white;
+  position: absolute;
+  left: 110px;
+  bottom: -385px;
+  width: 400px;
+  border: 1px solid gray;
+}
+
+.photoframe img {
+  padding:0 0 10px 30px;
+  width: 300px;
+}
+
+.photoframe.showphotos {
+  bottom: 0;
+}
+
+.photoheader {
+  text-align: center;
+  left: 60px;
+  top: -75px;
+  width: 60%;
+  position: relative;
+}
+.photoframe .subtitle {
+  text-align: center;
+}
+.photoheader span {
+  display: block;
+}
+
+.photoholder {
+  height: 300px;
+  margin: 0 50px;
+}
+.glyphicon {
+  background: none;
+  color: green;
+}
